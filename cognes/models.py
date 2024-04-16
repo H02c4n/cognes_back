@@ -4,5 +4,5 @@ from django.db import models
 
 
 
-class Main():
+class Main(models.Model):
     title = models.CharField(max_length=50, blank=True, null=True)
